@@ -1,0 +1,100 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+    <head>
+        <title>Employee Interests Survey</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <header>
+            <h1>Employee Interests Survey Form</h1>
+        </header>
+
+        <!-- Specifies the main content of the document -->
+        <main>
+            <div class="main-div-form-style">
+                <!-- Send to no where -->
+                <form action="#">
+                    <div class="form-items">
+                        <div class="label">
+                            <label for="name"><strong>Enter your name:&nbsp;&nbsp;</strong></label>
+                        </div>
+
+                        <div class="fields">
+                            <input type="text" id="name" name="name" size=35 maxlength=20 placeholder="Enter full name here">  
+                        </div>
+                    </div>
+
+                    <br>
+                    <div class="form-items">
+                        <div class="label">
+                            <label for="description">Write a short description of yourself:</label>
+                        </div>
+
+                        <div class="fields">
+                            <textarea id="description" name="description" cols=30 rows=4 placeholder=" My interests are..."></textarea>
+                        </div>
+                    </div>
+
+                    <div class="form-items">
+                        <div class="label">
+                            <label for="radio">
+                                <em>Do you play any sport?</em>
+                            </label>
+                        </div>
+
+                        <div class="fields">
+                            <div id="radio" class="radio">
+                                <input type="radio" name="radio" value=1>Yes
+                                <input type="radio" name="radio" value=2>No
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-items">
+                        <div class="label">
+                            <label for="checkbox">
+                                <strong><em>How do you prefer to read about interesting things?</em></strong>
+                            </label>
+                        </div>
+
+                        <div class="fields">
+                            <div id="checkbox" class="checkbox">
+                                <input type="checkbox" class="checkbox" name="Books">Books
+                                <input type="checkbox" class="checkbox" name="Magazines">Magazines
+                                <input type="checkbox" class="checkbox" name="Online">Online
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-items">
+                        <div class="label">
+                            <label for="dropdown">What genre of movies do you prefer?</label>
+                        </div>
+
+                        <div class="fields">
+                            <select name="moviePrefer" id="dropdown" class="dropdown">
+                                <option value="" selected hidden></option>
+                                <option value="1">Action</option>
+                                <option value="2">Romance</option>
+                                <option value="3">Comedy</option>
+                                <option value="4">Thriller</option>
+                                <option value="5">Horror</option>
+                            </select>
+                        </div>
+                    </div>
+                    <br>
+
+                    <button id="submit" type="submit">Submit Form</button>
+                </form>
+            </div>
+        </main>
+    </body>
+
+    <footer class="footer">
+        <p>Susanne J. Hultgren 2020-10</p>
+    </footer>
+
+</html>

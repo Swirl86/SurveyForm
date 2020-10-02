@@ -1,0 +1,102 @@
+body {
+    text-align: center;
+    background-color: #85ecc4;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    background-color: #53b48e;
+}
+
+#name {
+    border-radius: 5px;
+    background: #e7dfdf;
+    padding: 10px;
+    border: 1px solid #000000;
+}
+
+#description {
+    background-color: #e7dfdf;
+    border-radius: 10px;
+    border: 1px solid #000000;
+}
+
+#submit {
+    font-size: 16px;
+    background-color: #68b1ff;
+    border: 1px solid #000000;
+    padding: 15px 30px 15px 30px;
+    border-radius: 3px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.main-div-form-style {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /*move an element across the plane (on the x and y axis)*/
+    transform: translate(-50%, -50%);
+    width: 70%;
+    background-color: #f3f3f3;
+    border-radius: 10px;
+    padding: 50px 0px 150px 0px;
+}
+
+.form-items {
+    font-size: 18px;
+    position: static;
+    display: block;
+    padding-bottom: 10px;
+}
+
+.label {
+  display: inline-block;
+  text-align: right;
+  width: 40%;
+  padding: 5px;
+  vertical-align: top;
+  margin-top: 10px;
+}
+
+.fields {
+    display: inline-block;
+    text-align: left;
+    width: 48%;
+    vertical-align: middle;
+    margin: 5px 5px 5px 10px;
+}
+
+.dropdown {
+    text-align: center;
+    height: 35px;
+    width: 150px;
+    padding: 5px;
+    margin: 7px 5px 10px 10px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    background-color: #e7dfdf;
+}
+
+.checkbox {
+    margin: 7px 5px 5px 5px;
+}
+
+.radio {
+    margin-top: 10px ;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #53b48e;
+  color: #591659;
+  text-align: left;
+  padding: 15px;
+}
